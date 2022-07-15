@@ -1,0 +1,10 @@
+.card {
+  flex-basis: 100%;
+  max-width: 20rem;
+  margin: 0 1.2rem;
+}
+
+.card_poster {
+  position: relative;
+  margin-bottom: 1.3rem;
+}
