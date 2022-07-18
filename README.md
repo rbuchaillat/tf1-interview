@@ -26,9 +26,11 @@ Questions sur les spécifications manquantes :
 
 Améliorations possibles dans le jeu de données ?
 
-- Corriger le problème de boucle infinie causé par la présence "program" dans "thunmail"
-- Insérer la notion de "image" à l'intérieur de "program" directement si "image" est utile
-- Renommer "thunmail" en "thumbnail"
+- Corriger le problème de boucle infinie causé par la présence "program" dans "thunmail", dans l'API GraphQL
+- Insérer la notion de "image" à l'intérieur de "program" directement si "image" est utile, dans l'API GraphQL
+- Renommer "thunmail" en "thumbnail" dans l'API GraphQL
+- Ajouter un élément permettant de repérer visuellement à quel niveau on se situe dans le carrousel
+- Afficher le bouton de navigation à droite ou à gauche que si cela est possible (le bloquer si on est à la fin ou au début)
 
 Explication de mes choix :
 
@@ -37,4 +39,4 @@ Explication de mes choix :
 - Utilisation de "atomic design" qui est une méthodologie de création d’interfaces graphiques qui s’articule autour de cinq composants : Atomes, Molécules, Organismes, Templates et Pages.
 - Une font-size à 62.5% afin de gérer les rem plus facilement car 1rem (accessibilité) = 10px;
 - J'ai limité la taille du titre à deux lignes pour la beauté de l'affichage
-- J'ai mis une thumbnail par défaut là où les thumbnails de l'api GraphQL ne fonctionnaient pas
+- J'ai mis une thumbnail par défaut là où les thumbnails de l'API GraphQL ne fonctionnaient pas
